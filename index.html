@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoDevza | Next-Gen Cryptocurrency Platform</title>
+  <meta name="description" content="Secure, fast, and intuitive cryptocurrency trading platform with advanced features">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+<link rel="icon" href="image/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="image/logo-removebg-preview-removebg-preview.png" alt="CryptoDev Logo">
+        <span>CryptoDevza</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#market">Market</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#app">App</a>
+      </nav>
+
+      <div class="nav-buttons">
+        <a href="#" class="btn btn-outline">Sign In</a>
+        <a href="#" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Next Generation <span class="gradient-text">Crypto Trading</span> Platform</h1>
+        <p class="subtitle">Trade with confidence on the most secure, fastest, and intuitive cryptocurrency exchange
+          platform.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn btn-primary btn-lg">Start Trading <i class="fas fa-arrow-right"></i></a>
+          <a href="#" class="btn btn-outline btn-lg">Explore Features</a>
+        </div>
+        <div class="trust-badges">
+          <div class="badge">
+            <i class="fas fa-shield-alt"></i>
+            <span>Bank-grade Security</span>
+          </div>
+          <div class="badge">
+            <i class="fas fa-bolt"></i>
+            <span>Lightning Fast</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <img src="image/20250705_1959_Crypto_Trading_Display_remix_01jzdhfs31f7dr6w9p1fr5az59-removebg-preview.png"
+          alt="CryptoDev Dashboard">
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="partners" data-aos="fade-up">
+    <div class="container">
+      <p class="section-label">TRUSTED BY INDUSTRY LEADERS</p>
+      <div class="partners-grid">
+        <img src="image/coin-4.png" alt="Binance">
+        <img src="image/coin-1.png" alt="Bitcoin">
+        <img src="image/coin-2.png" alt="Kraken">
+        <img src="image/coin-7.png" alt="Gemini">
+        <img src="image/coin-5.png" alt="Bitfinex">
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats" data-aos="fade-up">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>500K+</h3>
+          <p>Active Traders</p>
+          <div class="stat-icon">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+        <div class="stat-card">
+          <h3>120+</h3>
+          <p>Countries Supported</p>
+          <div class="stat-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+        </div>
+        <div class="stat-card">
+          <h3>99.99%</h3>
+          <p>Uptime</p>
+          <div class="stat-icon">
+            <i class="fas fa-server"></i>
+          </div>
+        </div>
+        <div class="stat-card">
+          <h3>$10B+</h3>
+          <p>Monthly Volume</p>
+          <div class="stat-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label2">WHY CHOOSE CRYPTODEV</p>
+        <h2>Professional Trading <span class="gradient-text">Features</span></h2>
+        <p class="section-description">Access powerful tools designed for both beginners and professional traders.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Military-Grade Security</h3>
+          <p>Multi-signature wallets, cold storage, and 2FA to protect your assets.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
+          <h3>Lightning Fast Execution</h3>
+          <p>Our matching engine processes over 1M transactions per second.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h3>Advanced Charting</h3>
+          <p>Professional trading tools with 50+ technical indicators.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>AI Market Insights</h3>
+          <p>Get predictive analytics and smart trade suggestions.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-percentage"></i>
+          </div>
+          <h3>Lowest Fees</h3>
+          <p>Industry-leading 0.1% trading fees with volume discounts.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Dedicated support team available around the clock.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market Section -->
+  <section class="market" id="market" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label2">REAL-TIME DATA</p>
+        <h2>Live Crypto <span class="gradient-text">Market</span></h2>
+        <p class="section-description">Track prices, trends, and market movements in real-time.</p>
+      </div>
+      <div class="market-tabs">
+        <button class="tab-btn active" data-tab="all">All</button>
+        <button class="tab-btn" data-tab="gainers">Top Gainers</button>
+        <button class="tab-btn" data-tab="losers">Top Losers</button>
+        <button class="tab-btn" data-tab="volume">Volume</button>
+      </div>
+      <div class="market-table-container">
+        <table class="market-table">
+          <thead>
+            <tr>
+              <th>Asset</th>
+              <th>Price</th>
+              <th>24h Change</th>
+              <th>24h Volume</th>
+              <th>Market Cap</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+      <div class="market-chart-container">
+        <canvas id="marketChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works" id="how-it-works" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label2">GET STARTED IN MINUTES</p>
+        <h2>How CryptoDev <span class="gradient-text">Works</span></h2>
+        <p class="section-description">Start trading cryptocurrencies in just a few simple steps.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Create Your Account</h3>
+            <p>Sign up with your email and set up your profile in under 2 minutes.</p>
+          </div>
+          <div class="step-icon">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Verify Your Identity</h3>
+            <p>Complete our quick KYC process to unlock all platform features.</p>
+          </div>
+          <div class="step-icon">
+            <i class="fas fa-id-card"></i>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Deposit Funds</h3>
+            <p>Add funds via bank transfer, credit card, or crypto deposit.</p>
+          </div>
+          <div class="step-icon">
+            <i class="fas fa-wallet"></i>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Start Trading</h3>
+            <p>Buy, sell, and trade hundreds of cryptocurrencies instantly.</p>
+          </div>
+          <div class="step-icon">
+            <i class="fas fa-exchange-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Section -->
+  <section class="app" id="app" data-aos="fade-up">
+    <div class="container">
+      <div class="app-content">
+        <div class="app-text">
+          <p class="section-label2">TRADE ON THE GO</p>
+          <h2>CryptoDev <span class="gradient-text">Mobile App</span></h2>
+          <p class="app-description">Manage your portfolio, execute trades, and track the markets from anywhere with our
+            award-winning mobile app.</p>
+          <div class="app-features">
+            <div class="app-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Real-time price alerts</span>
+            </div>
+            <div class="app-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Biometric authentication</span>
+            </div>
+            <div class="app-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Full trading functionality</span>
+            </div>
+            <div class="app-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Portfolio tracking</span>
+            </div>
+          </div>
+          <div class="app-download">
+            <a href="#" class="download-btn">
+              <i class="fab fa-apple"></i>
+              <div>
+                <span>Download on the</span>
+                <span>App Store</span>
+              </div>
+            </a>
+            <a href="#" class="download-btn">
+              <i class="fab fa-google-play"></i>
+              <div>
+                <span>Get it on</span>
+                <span>Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="app-image">
+          <img src="image/download-banner.png" alt="CryptoDev Mobile App">
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- CTA Section -->
+  <section class="cta" data-aos="fade-up">
+    <div class="container">
+      <div class="cta-card">
+        <h2>Ready to Join the Crypto Revolution?</h2>
+        <p>Create your account today and get started in minutes.</p>
+        <div class="cta-buttons2">
+          <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="#" class="btn btn-outline btn-lg">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo2">
+            <img src="image/logo-removebg-preview-removebg-preview.png" alt="CryptoDev Logo">
+          </div>
+          <p class="footer-description">The most secure and advanced cryptocurrency trading platform for everyone.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="https://www.linkedin.com/in/hamza-masroor-878710302/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/HamzaMasroor19" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Exchange</a></li>
+            <li><a href="#">Pro Trading</a></li>
+            <li><a href="#">Wallet</a></li>
+            <li><a href="#">Institutional</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Buy Crypto</a></li>
+            <li><a href="#">Trading Fees</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+            <li><a href="#">OTC Trading</a></li>
+            <li><a href="#">Listing Application</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">System Status</a></li>
+            <li><a href="#">Fees</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Legal & Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CryptoDev. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+        <div class="footer-credits">
+          <p>Made with ❤️ by <a href="#">HamzaDev</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
